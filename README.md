@@ -1,6 +1,6 @@
 # Open SEO MCP Skills
 
-[![Free SEO & GEO data via MCP](https://raw.githubusercontent.com/Ryze-AI-Adgent/open-seo-mcp-skills/1b852d098cfd1366e8e78e7e4879b77e95e0974e/ghs-toplight.png)](https://help.get-ryze.ai/claude/connect)
+[![Free SEO & GEO data via MCP](https://raw.githubusercontent.com/Ryze-AI-Adgent/open-seo-mcp-skills/1b852d098cfd1366e8e78e7e4879b77e95e0974e/ghs-toplight.png)](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp)
 
 Open-source SEO + GEO skills for Claude — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility — running on **your own Search Console, Analytics and ads data** through the [Ryze MCP](https://get-ryze.ai), with DataForSEO built in for the data Google won't give you.
 
