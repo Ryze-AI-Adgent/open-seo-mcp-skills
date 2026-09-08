@@ -5,6 +5,10 @@ description: Full SEO audit of a site from its real Search Console + GA4 data â€
 
 # SEO Audit
 
+## Requires
+
+The free Ryze MCP connector (`https://connector.get-ryze.ai/mcp`). Claude Code: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`. claude.ai / Desktop / Cursor: add it as a custom connector with the same URL. Setup: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+
 Audit the user's site using their own data via the Ryze MCP. No estimates â€” everything below comes from their actual GSC/GA4.
 
 ## Workflow

@@ -5,6 +5,10 @@ description: SERP-driven content brief for a target keyword — what ranks, what
 
 # Content Brief
 
+## Requires
+
+The free Ryze MCP connector (`https://connector.get-ryze.ai/mcp`). Claude Code: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`. claude.ai / Desktop / Cursor: add it as a custom connector with the same URL. Setup: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+
 A brief grounded in the live SERP plus the site's own data — not a generic outline.
 
 ## Workflow

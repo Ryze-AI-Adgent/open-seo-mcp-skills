@@ -5,6 +5,10 @@ description: Rank tracking without a tracker subscription — position movers be
 
 # Rank Tracking
 
+## Requires
+
+The free Ryze MCP connector (`https://connector.get-ryze.ai/mcp`). Claude Code: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`. claude.ai / Desktop / Cursor: add it as a custom connector with the same URL. Setup: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+
 Rank trackers estimate your position by scraping SERPs daily. Search Console records the position Google actually served you at. Use the real number.
 
 ## Workflow

@@ -5,6 +5,10 @@ description: Find money leaking between search ads and SEO — queries you pay f
 
 # SEO vs Ads
 
+## Requires
+
+The free Ryze MCP connector (`https://connector.get-ryze.ai/mcp`). Claude Code: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`. claude.ai / Desktop / Cursor: add it as a custom connector with the same URL. Setup: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+
 The report subscription tools can't do: it needs your ads account AND your Search Console together. Both are on the Ryze MCP.
 
 ## Workflow

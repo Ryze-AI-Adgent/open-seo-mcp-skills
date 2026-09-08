@@ -1,9 +1,27 @@
 {
   "name": "open-seo-mcp-skills",
-  "description": "Open-source SEO + GEO skills for Claude on the Ryze MCP — audits, keyword research, rank tracking, competitor gaps, backlinks, AI visibility. Real GSC/GA4/ads data plus built-in DataForSEO, no markup.",
-  "version": "0.1.0",
+  "description": "Open-source SEO + GEO skills for Claude on the Ryze MCP \u2014 audits, keyword research, rank tracking, competitor gaps, backlinks, AI visibility. Real GSC/GA4/ads data plus built-in DataForSEO, no markup.",
+  "version": "0.2.0",
   "author": {
     "name": "Ryze AI",
     "url": "https://get-ryze.ai"
-  }
+  },
+  "mcpServers": {
+    "ryze": {
+      "type": "http",
+      "url": "https://connector.get-ryze.ai/mcp"
+    }
+  },
+  "homepage": "https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp",
+  "repository": "https://github.com/Ryze-AI-Adgent/open-seo-mcp-skills",
+  "keywords": [
+    "seo",
+    "geo",
+    "mcp",
+    "claude-skills",
+    "search-console",
+    "ga4",
+    "dataforseo"
+  ],
+  "skills": "./skills"
 }

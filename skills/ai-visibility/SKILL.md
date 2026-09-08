@@ -5,6 +5,10 @@ description: Measure real AI-engine visibility — traffic from ChatGPT, Perplex
 
 # AI Visibility
 
+## Requires
+
+The free Ryze MCP connector (`https://connector.get-ryze.ai/mcp`). Claude Code: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`. claude.ai / Desktop / Cursor: add it as a custom connector with the same URL. Setup: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+
 Every "AI visibility tracker" samples prompts and guesses. GA4 records the actual clicks AI engines send. Measure the real thing first, then diagnose.
 
 ## Workflow

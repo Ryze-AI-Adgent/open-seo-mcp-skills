@@ -18,6 +18,16 @@ This takes the opposite approach:
 - **Competitor keywords, backlinks and SERPs** come from DataForSEO, already wired into the Ryze connector — no key to manage, no markup layer to build
 - Ahrefs and Semrush are also connectable if you already pay for them
 
+## Quick start
+
+```
+claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp
+claude plugin marketplace add Ryze-AI-Adgent/open-seo-mcp-skills
+claude plugin install open-seo-mcp-skills@ryze
+```
+
+Then: *"run an SEO audit on mysite.com"*. The plugin bundles the connector, so step one is optional in Claude Code.
+
 ## Install (2 steps)
 
 **1. Connect the Ryze MCP** — in Claude: Settings → Connectors → Customize → add custom connector:
@@ -27,7 +37,7 @@ Name: Ryze AI
 URL:  https://connector.get-ryze.ai/mcp
 ```
 
-Sign in, pick your workspace, connect your Google Search Console / GA4 / ads accounts once. Full guide: https://help.get-ryze.ai/claude/connect
+Sign in, pick your workspace, connect your Google Search Console / GA4 / ads accounts once. Full guide: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
 
 **2. Install the skills** — as a Claude Code plugin:
 
