@@ -28,6 +28,8 @@ claude plugin install open-seo-mcp-skills@ryze
 
 Then: *"run an SEO audit on mysite.com"*. The plugin bundles the connector, so step one is optional in Claude Code.
 
+Product pages: [Google Ads MCP](https://www.get-ryze.ai/google-ads-mcp) · [Meta Ads MCP](https://www.get-ryze.ai/meta-ads-mcp)
+
 ## Install (2 steps)
 
 **1. Connect the Ryze MCP** — in Claude: Settings → Connectors → Customize → add custom connector:
