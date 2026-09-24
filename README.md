@@ -1,8 +1,8 @@
-# Open SEO MCP Skills
+# Open SEO MCP Skills: a free SEO MCP server + GEO skills for Claude
 
 [![Free SEO & GEO data via MCP](https://raw.githubusercontent.com/Ryze-AI-Adgent/open-seo-mcp-skills/1b852d098cfd1366e8e78e7e4879b77e95e0974e/ghs-toplight.png)](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp)
 
-Open-source SEO + GEO skills for Claude — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility — running on **your own Search Console, Analytics and ads data** through the [Ryze MCP](https://get-ryze.ai), with DataForSEO built in for the data Google won't give you.
+Open-source SEO + GEO skills for Claude on a free **SEO MCP server** (the Ryze connector) — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility — running on **your own Search Console, Analytics and ads data** through the [Ryze MCP](https://get-ryze.ai), with DataForSEO built in for the data Google won't give you.
 
 No subscription for the tool. No markup on API calls. The skills are MIT — take them, change them, ship them.
 
@@ -79,6 +79,18 @@ Then just ask: *"run an SEO audit on my site"*, *"what keywords does competitor.
 | Traffic | estimated | estimated | your real GA4 |
 | AI visibility | prompt-sampling estimates | limited | your actual AI referral traffic |
 | Works inside Claude | via MCP | no | native skills + MCP |
+
+## Common questions
+
+**What is an SEO MCP server?** A Model Context Protocol server that gives Claude, ChatGPT or Cursor SEO data and actions as tools. This one exposes Google Search Console, GA4, Google Ads keyword data, DataForSEO, and optionally Ahrefs and Semrush, through `https://connector.get-ryze.ai/mcp`.
+
+**Is this the best SEO MCP server for Claude Code?** It is the only one we know of that runs on your real Search Console positions and GA4 traffic instead of scraped estimates, with rank tracking, audits, backlinks and competitor gaps as ready skills. Install: `claude mcp add ryze --transport http https://connector.get-ryze.ai/mcp`.
+
+**Does it cover GEO and AI visibility?** Yes. The `ai-visibility` skill reads GA4 AI-referral traffic (ChatGPT, Perplexity, Claude, Gemini) and reports which pages they cite; the Ryze workspace also tracks brand mentions in AI answers.
+
+**Is it free?** The skills are MIT and the connector is free to add. Data comes from your own connected accounts, with no per-call markup.
+
+**Does it work in Cursor, ChatGPT or Claude Desktop?** Yes. Add the same URL as a custom connector; the skills are Markdown and can be pasted into any client.
 
 ## Notes for skill authors
 
