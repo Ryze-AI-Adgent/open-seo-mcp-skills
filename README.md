@@ -1,8 +1,12 @@
 # Open SEO MCP Skills: a free SEO MCP server + GEO skills for Claude
 
-[![Free SEO & GEO data via MCP](https://raw.githubusercontent.com/Ryze-AI-Adgent/open-seo-mcp-skills/1b852d098cfd1366e8e78e7e4879b77e95e0974e/ghs-toplight.png)](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp)
+[![Free SEO & GEO data via MCP](https://raw.githubusercontent.com/Ryze-AI-Adgent/open-seo-mcp-skills/1b852d098cfd1366e8e78e7e4879b77e95e0974e/ghs-toplight.png)](https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp?utm_source=github&utm_content=open-seo-mcp-skills)
 
-Open-source SEO + GEO skills for Claude on a free **SEO MCP server** (the Ryze connector) — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility — running on **your own Search Console, Analytics and ads data** through the [Ryze MCP](https://get-ryze.ai), with DataForSEO built in for the data Google won't give you.
+Skip the setup: use the hosted Ryze MCP (Google sign-in, Search Console and GA4 connected in one step, approval-gated changes).
+
+**[Connect Ryze in one click →](https://www.get-ryze.ai/developers?utm_source=github&utm_content=open-seo-mcp-skills)**
+
+Open-source SEO + GEO skills for Claude on a free **SEO MCP server** (the Ryze connector) — keyword research, rank tracking, site audits, backlinks, competitor gaps, AI visibility — running on **your own Search Console, Analytics and ads data** through the [Ryze MCP](https://get-ryze.ai?utm_source=github&utm_content=open-seo-mcp-skills), with DataForSEO built in for the data Google won't give you.
 
 No subscription for the tool. No markup on API calls. The skills are MIT — take them, change them, ship them.
 
@@ -28,7 +32,7 @@ claude plugin install open-seo-mcp-skills@ryze
 
 Then: *"run an SEO audit on mysite.com"*. The plugin bundles the connector, so step one is optional in Claude Code.
 
-Product pages: [Google Ads MCP](https://www.get-ryze.ai/google-ads-mcp) · [Meta Ads MCP](https://www.get-ryze.ai/meta-ads-mcp)
+Product pages: [Google Ads MCP](https://www.get-ryze.ai/google-ads-mcp?utm_source=github&utm_content=open-seo-mcp-skills) · [Meta Ads MCP](https://www.get-ryze.ai/meta-ads-mcp?utm_source=github&utm_content=open-seo-mcp-skills)
 
 ## Install (2 steps)
 
@@ -39,7 +43,7 @@ Name: Ryze AI
 URL:  https://connector.get-ryze.ai/mcp
 ```
 
-Sign in, pick your workspace, connect your Google Search Console / GA4 / ads accounts once. Full guide: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp
+Sign in, pick your workspace, connect your Google Search Console / GA4 / ads accounts once. Full guide: https://www.get-ryze.ai/how-to-connect-claude-to-google-meta-ads-mcp?utm_source=github&utm_content=open-seo-mcp-skills
 
 **2. Install the skills** — as a Claude Code plugin:
 
